@@ -30,7 +30,7 @@ create temporary function ilike as 'com.levent.hive.udfs.liLIKE'; <br />
 - calculates months difference between two dates and  returns number of months(int) value <br />
 
 ### com.levent.hive.udfs.liLIKE
-- in-case sensitive like between two strings retuns boolean TRUE/FALSE <br />
+- Hive ilike function in-case sensitive like between two strings retuns boolean TRUE/FALSE <br />
 
 
 
