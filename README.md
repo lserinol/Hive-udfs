@@ -10,7 +10,7 @@ Collection of my Scala Hive UDFs
 
 1. git clone/fork project https://github.com/lserinol/Hive-udfs.git  <br />
 2. sbt assembly <br />
-3. add jar 'target/scala-<version number>/levent-funcs-assembly-<version number>.jar' to HIVE_AUX_JARS_FILE_PATH <br />
+3. add jar 'target/scala-<version number>/levent-hive-funcs-assembly-<version number>.jar' to HIVE_AUX_JARS_FILE_PATH <br />
    or use "add jar" command for Hive-CLI/Beeline
 
 ## Registering UDFs
