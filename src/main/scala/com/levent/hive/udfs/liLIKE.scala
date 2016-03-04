@@ -8,7 +8,7 @@ import org.joda.time.Days
 
 @Description(
         name = "liLIKE",
-        value = "_FUNC_(string1,string2) in-case sensitive like between two strings retuns boolean TRUE/FALSE",
+        value = "_FUNC_(string1,string2) in-case sensitive like between two strings returns boolean TRUE/FALSE",
         extended = "SELECT liLIKE(string1,string2) FROM test LIMIT 1;")
 class liLIKE extends UDF {
   def evaluate(s1: String, s2: String): Boolean = {

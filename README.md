@@ -30,7 +30,11 @@ create temporary function ilike as 'com.levent.hive.udfs.liLIKE'; <br />
 - calculates months difference between two dates and  returns number of months(int) value <br />
 
 ### com.levent.hive.udfs.liLIKE
-- Hive ilike function in-case sensitive like between two strings retuns boolean TRUE/FALSE <br />
+- Hive ilike function in-case sensitive like between two strings returns boolean TRUE/FALSE <br />
 
 
+### com.levent.hive.udfs.lurldecode
+- URLDecode - decodes application/x-www-form-urlencoded type into string (UTF-8) <br />
 
+### com.levent.hive.udfs.lurlencode
+- URLEncode - encodes a string into application/x-www-form-urlencoded type (UTF-8) <br />
