@@ -18,6 +18,8 @@ create temporary function lcrc32 as 'com.levent.hive.udfs.lcrc32'; <br />
 create temporary function ldays_between as 'com.levent.hive.udfs.ldays_between'; <br />
 create temporary function lmonths_between as 'com.levent.hive.udfs.lmonths_between'; <br />
 create temporary function ilike as 'com.levent.hive.udfs.liLIKE'; <br />
+create temporary function urldecode as 'com.levent.hive.udfs.lurldecode'; <br />
+create temporary function urlencode as 'com.levent.hive.udfs.lurlencode'; <br />
 
 
 ### com.levent.hive.udfs.lcrc32
