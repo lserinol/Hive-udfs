@@ -18,8 +18,8 @@ create temporary function lcrc32 as 'com.levent.hive.udfs.lcrc32'; <br />
 create temporary function ldays_between as 'com.levent.hive.udfs.ldays_between'; <br />
 create temporary function lmonths_between as 'com.levent.hive.udfs.lmonths_between'; <br />
 create temporary function ilike as 'com.levent.hive.udfs.liLIKE'; <br />
-create temporary function urldecode as 'com.levent.hive.udfs.lurldecode'; <br />
-create temporary function urlencode as 'com.levent.hive.udfs.lurlencode'; <br />
+create temporary function urldecode as 'com.levent.hive.udfs.lurlDecode'; <br />
+create temporary function urlencode as 'com.levent.hive.udfs.lurlEncode'; <br />
 
 
 ### com.levent.hive.udfs.lcrc32
@@ -35,8 +35,8 @@ create temporary function urlencode as 'com.levent.hive.udfs.lurlencode'; <br />
 - Hive ilike function in-case sensitive like between two strings returns boolean TRUE/FALSE <br />
 
 
-### com.levent.hive.udfs.lurldecode
+### com.levent.hive.udfs.lurlDecode
 - URLDecode - decodes application/x-www-form-urlencoded type into string (UTF-8) <br />
 
-### com.levent.hive.udfs.lurlencode
+### com.levent.hive.udfs.lurlEncode
 - URLEncode - encodes a string into application/x-www-form-urlencoded type (UTF-8) <br />
